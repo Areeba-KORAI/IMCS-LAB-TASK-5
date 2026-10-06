@@ -1,0 +1,7 @@
+name = input("Enter Name: ")
+age = int(input("Enter Age: "))
+program = input("Enter Program: ")
+marks = float(input("Enter Marks: "))
+userinfo = (name, age, program, marks)
+print("Stored Information Tuple:")
+print(userinfo)

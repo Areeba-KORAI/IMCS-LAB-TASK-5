@@ -1,0 +1,13 @@
+sentence = input("\nEnter a sentence: ")
+numchars = len(sentence)
+numwords = len(sentence.split())
+vowels = "aeiouAEIOU"
+numvowels = sum(1 for char in sentence if char in vowels)
+numspaces = sentence.count(' ')
+numdigits = sum(1 for char in sentence if char.isdigit())
+print("\nSentence Analysis:")
+print(f"Number of characters: {numchars}")
+print(f"Number of words: {numwords}")
+print(f"Number of vowels: {numvowels}")
+print(f"Number of spaces: {numspaces}")
+print(f"Number of digits: {numdigits}")
